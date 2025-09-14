@@ -1,1 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #1e1e2f;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
 
+header {
+  text-align: center;
+  padding: 2rem;
+  background: #2d2d44;
+}
+
+.catalogue-jeux {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.catalogue-jeux a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.catalogue-jeux a:hover {
+  transform: scale(1.05);
+}
+
+.catalogue-jeux img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
